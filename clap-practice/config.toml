@@ -1,0 +1,12 @@
+websocket_url = "ws://54.177.5.188:26657/websocket"
+rpc_url = "https://neutron-rpc.publicnode.com:443"
+
+[database]
+name = "postgres"
+user = "postgres"
+password = "postgres"
+persistence = true
+
+[indexer]
+enable_indexer = true
+tendermint_initial_block_height = 1055000
